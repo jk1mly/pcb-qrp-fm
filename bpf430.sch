@@ -1,0 +1,904 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 61D75BA7
+P 7500 3750
+AR Path="/61D75BA7" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75BA7" Ref="C421"  Part="1" 
+F 0 "C421" H 7615 3796 50  0000 L CNN
+F 1 "1p" H 7615 3705 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 7538 3600 50  0001 C CNN
+F 3 "~" H 7500 3750 50  0001 C CNN
+	1    7500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75BAD
+P 6250 2500
+AR Path="/61D75BAD" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75BAD" Ref="C417"  Part="1" 
+F 0 "C417" V 6502 2500 50  0000 C CNN
+F 1 "1p" V 6411 2500 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 6288 2350 50  0001 C CNN
+F 3 "~" H 6250 2500 50  0001 C CNN
+	1    6250 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61D75BB9
+P 2250 3000
+AR Path="/61D75BB9" Ref="D?"  Part="1" 
+AR Path="/61D10C81/61D75BB9" Ref="D401"  Part="1" 
+F 0 "D401" H 2250 3217 50  0000 C CNN
+F 1 "1SS277" H 2250 3126 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 2250 3000 50  0001 C CNN
+F 3 "~" H 2250 3000 50  0001 C CNN
+	1    2250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61D75BBF
+P 9750 3000
+AR Path="/61D75BBF" Ref="D?"  Part="1" 
+AR Path="/61D10C81/61D75BBF" Ref="D402"  Part="1" 
+F 0 "D402" H 9750 3217 50  0000 C CNN
+F 1 "1SS277" H 9750 3126 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P2.54mm_Vertical_AnodeUp" H 9750 3000 50  0001 C CNN
+F 3 "~" H 9750 3000 50  0001 C CNN
+	1    9750 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61D75BC5
+P 8500 3750
+AR Path="/61D75BC5" Ref="L?"  Part="1" 
+AR Path="/61D10C81/61D75BC5" Ref="L405"  Part="1" 
+F 0 "L405" H 8553 3796 50  0000 L CNN
+F 1 "10n" H 8553 3705 50  0000 L CNN
+F 2 "Inductor_SMD:L_Murata_LQH2MCNxxxx02_2.0x1.6mm" H 8500 3750 50  0001 C CNN
+F 3 "~" H 8500 3750 50  0001 C CNN
+	1    8500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61D75BCB
+P 10000 3250
+AR Path="/61D75BCB" Ref="L?"  Part="1" 
+AR Path="/61D10C81/61D75BCB" Ref="L408"  Part="1" 
+F 0 "L408" H 10053 3296 50  0000 L CNN
+F 1 "1u" H 10053 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 10000 3250 50  0001 C CNN
+F 3 "~" H 10000 3250 50  0001 C CNN
+	1    10000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61D75BD1
+P 2500 1750
+AR Path="/61D75BD1" Ref="R?"  Part="1" 
+AR Path="/61D10C81/61D75BD1" Ref="R402"  Part="1" 
+F 0 "R402" H 2570 1796 50  0000 L CNN
+F 1 "1k" H 2570 1705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2430 1750 50  0001 C CNN
+F 3 "~" H 2500 1750 50  0001 C CNN
+	1    2500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61D75BD7
+P 10000 3750
+AR Path="/61D75BD7" Ref="R?"  Part="1" 
+AR Path="/61D10C81/61D75BD7" Ref="R404"  Part="1" 
+F 0 "R404" H 10070 3796 50  0000 L CNN
+F 1 "1k" H 10070 3705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9930 3750 50  0001 C CNN
+F 3 "~" H 10000 3750 50  0001 C CNN
+	1    10000 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75BDD
+P 7000 3750
+AR Path="/61D75BDD" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75BDD" Ref="C420"  Part="1" 
+F 0 "C420" H 7115 3796 50  0000 L CNN
+F 1 "10p" H 7115 3705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 7038 3600 50  0001 C CNN
+F 3 "~" H 7000 3750 50  0001 C CNN
+	1    7000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75BE3
+P 6500 3750
+AR Path="/61D75BE3" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75BE3" Ref="C419"  Part="1" 
+F 0 "C419" H 6615 3796 50  0000 L CNN
+F 1 "1p" H 6615 3705 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 6538 3600 50  0001 C CNN
+F 3 "~" H 6500 3750 50  0001 C CNN
+	1    6500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61D75BE9
+P 9000 3750
+AR Path="/61D75BE9" Ref="L?"  Part="1" 
+AR Path="/61D10C81/61D75BE9" Ref="L406"  Part="1" 
+F 0 "L406" H 9053 3796 50  0000 L CNN
+F 1 "1u" H 9053 3705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9000 3750 50  0001 C CNN
+F 3 "~" H 9000 3750 50  0001 C CNN
+	1    9000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3600 6500 3500
+Wire Wire Line
+	6500 3500 7000 3500
+Wire Wire Line
+	9000 3500 9000 3600
+Wire Wire Line
+	8500 3600 8500 3500
+Connection ~ 8500 3500
+Wire Wire Line
+	8500 3500 9000 3500
+Wire Wire Line
+	7500 3600 7500 3500
+Connection ~ 7500 3500
+Wire Wire Line
+	7500 3500 7750 3500
+Connection ~ 7000 3500
+Wire Wire Line
+	7000 3500 7500 3500
+Wire Wire Line
+	6500 3900 6500 4000
+Wire Wire Line
+	6500 4000 7000 4000
+Wire Wire Line
+	9000 4000 9000 3900
+Wire Wire Line
+	8500 3900 8500 4000
+Connection ~ 8500 4000
+Wire Wire Line
+	8500 4000 9000 4000
+Wire Wire Line
+	7500 3900 7500 4000
+Connection ~ 7500 4000
+Wire Wire Line
+	7500 4000 7750 4000
+Wire Wire Line
+	7000 3900 7000 4000
+Connection ~ 7000 4000
+Wire Wire Line
+	7000 4000 7500 4000
+Wire Wire Line
+	7000 3500 7000 3600
+$Comp
+L Device:C C?
+U 1 1 61D75C13
+P 6250 3000
+AR Path="/61D75C13" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75C13" Ref="C418"  Part="1" 
+F 0 "C418" V 6502 3000 50  0000 C CNN
+F 1 "10p" V 6411 3000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 6288 2850 50  0001 C CNN
+F 3 "~" H 6250 3000 50  0001 C CNN
+	1    6250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75C19
+P 5250 3000
+AR Path="/61D75C19" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75C19" Ref="C414"  Part="1" 
+F 0 "C414" V 5502 3000 50  0000 C CNN
+F 1 "10p" V 5411 3000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 5288 2850 50  0001 C CNN
+F 3 "~" H 5250 3000 50  0001 C CNN
+	1    5250 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 2500 6000 2500
+Wire Wire Line
+	6000 2500 6000 3000
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3000 6100 3000
+Connection ~ 6000 2500
+Wire Wire Line
+	6500 3000 6400 3000
+Wire Wire Line
+	6400 2500 6500 2500
+Connection ~ 6500 2500
+Wire Wire Line
+	6500 2500 6500 3000
+Wire Wire Line
+	7750 3000 7750 3500
+Connection ~ 6500 3000
+Connection ~ 7750 3500
+$Comp
+L Device:C C?
+U 1 1 61D75C30
+P 4000 3750
+AR Path="/61D75C30" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75C30" Ref="C411"  Part="1" 
+F 0 "C411" H 4115 3796 50  0000 L CNN
+F 1 "1p" H 4115 3705 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 4038 3600 50  0001 C CNN
+F 3 "~" H 4000 3750 50  0001 C CNN
+	1    4000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61D75C3C
+P 5000 3750
+AR Path="/61D75C3C" Ref="L?"  Part="1" 
+AR Path="/61D10C81/61D75C3C" Ref="L403"  Part="1" 
+F 0 "L403" H 5053 3796 50  0000 L CNN
+F 1 "10n" H 5053 3705 50  0000 L CNN
+F 2 "Inductor_SMD:L_Murata_LQH2MCNxxxx02_2.0x1.6mm" H 5000 3750 50  0001 C CNN
+F 3 "~" H 5000 3750 50  0001 C CNN
+	1    5000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75C42
+P 3500 3750
+AR Path="/61D75C42" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75C42" Ref="C406"  Part="1" 
+F 0 "C406" H 3615 3796 50  0000 L CNN
+F 1 "10p" H 3615 3705 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 3538 3600 50  0001 C CNN
+F 3 "~" H 3500 3750 50  0001 C CNN
+	1    3500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75C48
+P 3000 3750
+AR Path="/61D75C48" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75C48" Ref="C405"  Part="1" 
+F 0 "C405" H 3115 3796 50  0000 L CNN
+F 1 "1p" H 3115 3705 50  0000 L CNN
+F 2 "digikey-footprints:0603" H 3038 3600 50  0001 C CNN
+F 3 "~" H 3000 3750 50  0001 C CNN
+	1    3000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61D75C4E
+P 5500 3750
+AR Path="/61D75C4E" Ref="L?"  Part="1" 
+AR Path="/61D10C81/61D75C4E" Ref="L404"  Part="1" 
+F 0 "L404" H 5553 3796 50  0000 L CNN
+F 1 "1u" H 5553 3705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 5500 3750 50  0001 C CNN
+F 3 "~" H 5500 3750 50  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3600 3000 3500
+Wire Wire Line
+	3000 3500 3500 3500
+Wire Wire Line
+	5500 3500 5500 3600
+Wire Wire Line
+	5000 3600 5000 3500
+Connection ~ 5000 3500
+Wire Wire Line
+	5000 3500 5500 3500
+Wire Wire Line
+	4000 3600 4000 3500
+Connection ~ 4000 3500
+Wire Wire Line
+	4000 3500 4250 3500
+Connection ~ 3500 3500
+Wire Wire Line
+	3500 3500 4000 3500
+Wire Wire Line
+	3000 3900 3000 4000
+Wire Wire Line
+	3000 4000 3500 4000
+Wire Wire Line
+	5500 4000 5500 3900
+Wire Wire Line
+	5000 3900 5000 4000
+Connection ~ 5000 4000
+Wire Wire Line
+	5000 4000 5500 4000
+Wire Wire Line
+	4000 3900 4000 4000
+Connection ~ 4000 4000
+Wire Wire Line
+	4000 4000 4250 4000
+Wire Wire Line
+	3500 3900 3500 4000
+Connection ~ 3500 4000
+Wire Wire Line
+	3500 4000 4000 4000
+Wire Wire Line
+	3500 3500 3500 3600
+Wire Wire Line
+	4250 3000 4250 3500
+Connection ~ 4250 3500
+$Comp
+L Device:C C?
+U 1 1 61D75C75
+P 3750 2500
+AR Path="/61D75C75" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75C75" Ref="C409"  Part="1" 
+F 0 "C409" V 4002 2500 50  0000 C CNN
+F 1 "1p" V 3911 2500 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 3788 2350 50  0001 C CNN
+F 3 "~" H 3750 2500 50  0001 C CNN
+	1    3750 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75C81
+P 3750 3000
+AR Path="/61D75C81" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75C81" Ref="C410"  Part="1" 
+F 0 "C410" V 4002 3000 50  0000 C CNN
+F 1 "10p" V 3911 3000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 3788 2850 50  0001 C CNN
+F 3 "~" H 3750 3000 50  0001 C CNN
+	1    3750 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75C87
+P 2750 3000
+AR Path="/61D75C87" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75C87" Ref="C404"  Part="1" 
+F 0 "C404" V 3002 3000 50  0000 C CNN
+F 1 "10p" V 2911 3000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 2788 2850 50  0001 C CNN
+F 3 "~" H 2750 3000 50  0001 C CNN
+	1    2750 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 2500 3500 2500
+Wire Wire Line
+	3500 2500 3500 3000
+Connection ~ 3500 3000
+Wire Wire Line
+	3500 3000 3600 3000
+Connection ~ 3500 2500
+Connection ~ 4000 3000
+Wire Wire Line
+	4000 3000 3900 3000
+Wire Wire Line
+	3900 2500 4000 2500
+Connection ~ 4000 2500
+Wire Wire Line
+	4000 2500 4000 3000
+$Comp
+L Device:C C?
+U 1 1 61D75C9B
+P 8250 2500
+AR Path="/61D75C9B" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75C9B" Ref="C425"  Part="1" 
+F 0 "C425" V 8502 2500 50  0000 C CNN
+F 1 "1p" V 8411 2500 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 8288 2350 50  0001 C CNN
+F 3 "~" H 8250 2500 50  0001 C CNN
+	1    8250 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75CA7
+P 8250 3000
+AR Path="/61D75CA7" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75CA7" Ref="C426"  Part="1" 
+F 0 "C426" V 8502 3000 50  0000 C CNN
+F 1 "10p" V 8411 3000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 8288 2850 50  0001 C CNN
+F 3 "~" H 8250 3000 50  0001 C CNN
+	1    8250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75CAD
+P 9250 3000
+AR Path="/61D75CAD" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75CAD" Ref="C428"  Part="1" 
+F 0 "C428" V 9502 3000 50  0000 C CNN
+F 1 "10p" V 9411 3000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 9288 2850 50  0001 C CNN
+F 3 "~" H 9250 3000 50  0001 C CNN
+	1    9250 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8100 2500 8000 2500
+Wire Wire Line
+	8000 2500 8000 3000
+Wire Wire Line
+	8000 3000 8100 3000
+Connection ~ 8000 2500
+Wire Wire Line
+	8400 2500 8500 2500
+$Comp
+L Device:L L?
+U 1 1 61D75CBB
+P 2000 3250
+AR Path="/61D75CBB" Ref="L?"  Part="1" 
+AR Path="/61D10C81/61D75CBB" Ref="L401"  Part="1" 
+F 0 "L401" H 2053 3296 50  0000 L CNN
+F 1 "1u" H 2053 3205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2000 3250 50  0001 C CNN
+F 3 "~" H 2000 3250 50  0001 C CNN
+	1    2000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61D75CC1
+P 2000 3750
+AR Path="/61D75CC1" Ref="R?"  Part="1" 
+AR Path="/61D10C81/61D75CC1" Ref="R401"  Part="1" 
+F 0 "R401" H 2070 3796 50  0000 L CNN
+F 1 "1k" H 2070 3705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1930 3750 50  0001 C CNN
+F 3 "~" H 2000 3750 50  0001 C CNN
+	1    2000 3750
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61D75CC7
+P 2500 2250
+AR Path="/61D75CC7" Ref="L?"  Part="1" 
+AR Path="/61D10C81/61D75CC7" Ref="L402"  Part="1" 
+F 0 "L402" H 2553 2296 50  0000 L CNN
+F 1 "1u" H 2553 2205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 2500 2250 50  0001 C CNN
+F 3 "~" H 2500 2250 50  0001 C CNN
+	1    2500 2250
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61D75CCD
+P 9500 1750
+AR Path="/61D75CCD" Ref="R?"  Part="1" 
+AR Path="/61D10C81/61D75CCD" Ref="R403"  Part="1" 
+F 0 "R403" H 9570 1796 50  0000 L CNN
+F 1 "1k" H 9570 1705 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9430 1750 50  0001 C CNN
+F 3 "~" H 9500 1750 50  0001 C CNN
+	1    9500 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61D75CD3
+P 9500 2250
+AR Path="/61D75CD3" Ref="L?"  Part="1" 
+AR Path="/61D10C81/61D75CD3" Ref="L407"  Part="1" 
+F 0 "L407" H 9553 2296 50  0000 L CNN
+F 1 "1u" H 9553 2205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" H 9500 2250 50  0001 C CNN
+F 3 "~" H 9500 2250 50  0001 C CNN
+	1    9500 2250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8000 3000 7750 3000
+Connection ~ 8000 3000
+Connection ~ 7750 3000
+Wire Wire Line
+	8400 3000 8500 3000
+Wire Wire Line
+	8500 2500 8500 3000
+Connection ~ 8500 3000
+Connection ~ 8500 2500
+Wire Wire Line
+	9400 3000 9500 3000
+Connection ~ 9500 3000
+Wire Wire Line
+	9500 3000 9600 3000
+Wire Wire Line
+	9500 1900 9500 2100
+Wire Wire Line
+	9900 3000 10000 3000
+Wire Wire Line
+	10000 3000 10000 3100
+Wire Wire Line
+	10000 3400 10000 3600
+Wire Wire Line
+	2100 3000 2000 3000
+Wire Wire Line
+	2000 3000 2000 3100
+Wire Wire Line
+	2400 3000 2500 3000
+Connection ~ 2500 3000
+Wire Wire Line
+	2500 3000 2600 3000
+Wire Wire Line
+	2500 1900 2500 2100
+Wire Wire Line
+	2000 3400 2000 3600
+$Comp
+L power:GND #PWR?
+U 1 1 61D75CF5
+P 4250 4200
+AR Path="/61D75CF5" Ref="#PWR?"  Part="1" 
+AR Path="/61D10C81/61D75CF5" Ref="#PWR0404"  Part="1" 
+F 0 "#PWR0404" H 4250 3950 50  0001 C CNN
+F 1 "GND" H 4255 4027 50  0000 C CNN
+F 2 "" H 4250 4200 50  0001 C CNN
+F 3 "" H 4250 4200 50  0001 C CNN
+	1    4250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61D75CFB
+P 7750 4200
+AR Path="/61D75CFB" Ref="#PWR?"  Part="1" 
+AR Path="/61D10C81/61D75CFB" Ref="#PWR0405"  Part="1" 
+F 0 "#PWR0405" H 7750 3950 50  0001 C CNN
+F 1 "GND" H 7755 4027 50  0000 C CNN
+F 2 "" H 7750 4200 50  0001 C CNN
+F 3 "" H 7750 4200 50  0001 C CNN
+	1    7750 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4200 7750 4000
+Connection ~ 7750 4000
+Wire Wire Line
+	4250 4200 4250 4000
+Connection ~ 4250 4000
+$Comp
+L power:+5V #PWR?
+U 1 1 61D75D0F
+P 2500 1350
+AR Path="/61D75D0F" Ref="#PWR?"  Part="1" 
+AR Path="/61D10C81/61D75D0F" Ref="#PWR0403"  Part="1" 
+F 0 "#PWR0403" H 2500 1200 50  0001 C CNN
+F 1 "+5V" H 2515 1523 50  0000 C CNN
+F 2 "" H 2500 1350 50  0001 C CNN
+F 3 "" H 2500 1350 50  0001 C CNN
+	1    2500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1350 2500 1600
+$Comp
+L power:+5V #PWR?
+U 1 1 61D75D16
+P 9500 1350
+AR Path="/61D75D16" Ref="#PWR?"  Part="1" 
+AR Path="/61D10C81/61D75D16" Ref="#PWR0406"  Part="1" 
+F 0 "#PWR0406" H 9500 1200 50  0001 C CNN
+F 1 "+5V" H 9515 1523 50  0000 C CNN
+F 2 "" H 9500 1350 50  0001 C CNN
+F 3 "" H 9500 1350 50  0001 C CNN
+	1    9500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 1350 9500 1600
+$Comp
+L Device:C C?
+U 1 1 61D75D1D
+P 10250 3000
+AR Path="/61D75D1D" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D1D" Ref="C429"  Part="1" 
+F 0 "C429" V 10502 3000 50  0000 C CNN
+F 1 "10p" V 10411 3000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 10288 2850 50  0001 C CNN
+F 3 "~" H 10250 3000 50  0001 C CNN
+	1    10250 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75D23
+P 1750 3000
+AR Path="/61D75D23" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D23" Ref="C402"  Part="1" 
+F 0 "C402" V 2002 3000 50  0000 C CNN
+F 1 "10p" V 1911 3000 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 1788 2850 50  0001 C CNN
+F 3 "~" H 1750 3000 50  0001 C CNN
+	1    1750 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2000 3000 1900 3000
+Connection ~ 2000 3000
+Wire Wire Line
+	10100 3000 10000 3000
+Connection ~ 10000 3000
+$Comp
+L Device:C C?
+U 1 1 61D75D2D
+P 1500 3250
+AR Path="/61D75D2D" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D2D" Ref="C401"  Part="1" 
+F 0 "C401" H 1615 3296 50  0000 L CNN
+F 1 "10p" H 1615 3205 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 1538 3100 50  0001 C CNN
+F 3 "~" H 1500 3250 50  0001 C CNN
+	1    1500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61D75D33
+P 1500 3600
+AR Path="/61D75D33" Ref="#PWR?"  Part="1" 
+AR Path="/61D10C81/61D75D33" Ref="#PWR0401"  Part="1" 
+F 0 "#PWR0401" H 1500 3350 50  0001 C CNN
+F 1 "GND" H 1505 3427 50  0000 C CNN
+F 2 "" H 1500 3600 50  0001 C CNN
+F 3 "" H 1500 3600 50  0001 C CNN
+	1    1500 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 3400 1500 3600
+$Comp
+L Device:C C?
+U 1 1 61D75D3A
+P 10500 3250
+AR Path="/61D75D3A" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D3A" Ref="C430"  Part="1" 
+F 0 "C430" H 10615 3296 50  0000 L CNN
+F 1 "10p" H 10615 3205 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm" H 10538 3100 50  0001 C CNN
+F 3 "~" H 10500 3250 50  0001 C CNN
+	1    10500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61D75D40
+P 10500 3600
+AR Path="/61D75D40" Ref="#PWR?"  Part="1" 
+AR Path="/61D10C81/61D75D40" Ref="#PWR0408"  Part="1" 
+F 0 "#PWR0408" H 10500 3350 50  0001 C CNN
+F 1 "GND" H 10505 3427 50  0000 C CNN
+F 2 "" H 10500 3600 50  0001 C CNN
+F 3 "" H 10500 3600 50  0001 C CNN
+	1    10500 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 3400 10500 3600
+Wire Wire Line
+	10500 3100 10500 3000
+Wire Wire Line
+	10500 3000 10400 3000
+Wire Wire Line
+	1600 3000 1500 3000
+Wire Wire Line
+	1500 3000 1500 3100
+$Comp
+L Device:C C?
+U 1 1 61D75D4B
+P 2750 2500
+AR Path="/61D75D4B" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D4B" Ref="C403"  Part="1" 
+F 0 "C403" V 3002 2500 50  0000 C CNN
+F 1 "1p" V 2911 2500 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 2788 2350 50  0001 C CNN
+F 3 "~" H 2750 2500 50  0001 C CNN
+	1    2750 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75D51
+P 5250 2500
+AR Path="/61D75D51" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D51" Ref="C413"  Part="1" 
+F 0 "C413" V 5502 2500 50  0000 C CNN
+F 1 "1p" V 5411 2500 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 5288 2350 50  0001 C CNN
+F 3 "~" H 5250 2500 50  0001 C CNN
+	1    5250 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 2500 3000 2500
+Wire Wire Line
+	3000 2500 3000 3000
+Wire Wire Line
+	3000 3000 2900 3000
+Wire Wire Line
+	4250 3000 5000 3000
+Wire Wire Line
+	2500 2400 2500 2500
+Wire Wire Line
+	2600 2500 2500 2500
+Connection ~ 2500 2500
+Wire Wire Line
+	2500 2500 2500 3000
+Wire Wire Line
+	4000 3000 4250 3000
+Connection ~ 4250 3000
+Wire Wire Line
+	3000 3000 3500 3000
+Connection ~ 3000 3000
+Wire Wire Line
+	6500 3000 7750 3000
+$Comp
+L Device:C C?
+U 1 1 61D75D64
+P 9250 2500
+AR Path="/61D75D64" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D64" Ref="C427"  Part="1" 
+F 0 "C427" V 9502 2500 50  0000 C CNN
+F 1 "1p" V 9411 2500 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 9288 2350 50  0001 C CNN
+F 3 "~" H 9250 2500 50  0001 C CNN
+	1    9250 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9500 2400 9500 2500
+Wire Wire Line
+	9400 2500 9500 2500
+Connection ~ 9500 2500
+Wire Wire Line
+	9500 2500 9500 3000
+Wire Wire Line
+	9100 2500 9000 2500
+Wire Wire Line
+	9000 2500 9000 3000
+Wire Wire Line
+	9000 3000 9100 3000
+Wire Wire Line
+	8500 3000 9000 3000
+Connection ~ 9000 3000
+Wire Wire Line
+	5400 3000 5500 3000
+Wire Wire Line
+	5400 2500 5500 2500
+Wire Wire Line
+	5500 2500 5500 3000
+Connection ~ 5500 3000
+Wire Wire Line
+	5500 3000 6000 3000
+Wire Wire Line
+	5100 2500 5000 2500
+Wire Wire Line
+	5000 2500 5000 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	5000 3000 5100 3000
+$Comp
+L Device:C C?
+U 1 1 61D75D7C
+P 3750 1500
+AR Path="/61D75D7C" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D7C" Ref="C407"  Part="1" 
+F 0 "C407" V 4002 1500 50  0000 C CNN
+F 1 "1p" V 3911 1500 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 3788 1350 50  0001 C CNN
+F 3 "~" H 3750 1500 50  0001 C CNN
+	1    3750 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75D82
+P 6250 1500
+AR Path="/61D75D82" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D82" Ref="C415"  Part="1" 
+F 0 "C415" V 6502 1500 50  0000 C CNN
+F 1 "1p" V 6411 1500 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 6288 1350 50  0001 C CNN
+F 3 "~" H 6250 1500 50  0001 C CNN
+	1    6250 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61D75D88
+P 8250 1500
+AR Path="/61D75D88" Ref="C?"  Part="1" 
+AR Path="/61D10C81/61D75D88" Ref="C423"  Part="1" 
+F 0 "C423" V 8502 1500 50  0000 C CNN
+F 1 "1p" V 8411 1500 50  0000 C CNN
+F 2 "digikey-footprints:0603" H 8288 1350 50  0001 C CNN
+F 3 "~" H 8250 1500 50  0001 C CNN
+	1    8250 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 1500 6000 1500
+Wire Wire Line
+	6400 1500 6500 1500
+Wire Wire Line
+	8100 1500 8000 1500
+Wire Wire Line
+	8400 1500 8500 1500
+Wire Wire Line
+	3900 1500 4000 1500
+Wire Wire Line
+	3600 1500 3500 1500
+Text GLabel 10700 3000 2    50   Input ~ 0
+RFANT
+Wire Wire Line
+	10700 3000 10500 3000
+Connection ~ 10500 3000
+Text GLabel 1200 3000 0    50   Input ~ 0
+RFIO
+Wire Wire Line
+	1500 3000 1200 3000
+Connection ~ 1500 3000
+Text GLabel 1250 4500 0    50   Input ~ 0
+B430
+Wire Wire Line
+	1250 4500 2000 4500
+Wire Wire Line
+	10000 4500 10000 3900
+Wire Wire Line
+	2000 3900 2000 4500
+Connection ~ 2000 4500
+Wire Wire Line
+	2000 4500 10000 4500
+Wire Wire Line
+	3500 1500 3500 2500
+Wire Wire Line
+	4000 1500 4000 2500
+Wire Wire Line
+	6000 1500 6000 2500
+Wire Wire Line
+	6500 1500 6500 2500
+Wire Wire Line
+	8000 1500 8000 2500
+Wire Wire Line
+	8500 1500 8500 2500
+Wire Wire Line
+	7750 4000 8500 4000
+Wire Wire Line
+	7750 3500 8500 3500
+Wire Wire Line
+	4250 3500 5000 3500
+Wire Wire Line
+	4250 4000 5000 4000
+$EndSCHEMATC
