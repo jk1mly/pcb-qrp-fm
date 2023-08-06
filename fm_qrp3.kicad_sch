@@ -1,0 +1,44 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6d1d60ff-408a-47a7-892f-c5cf9ef6ca75)
+
+  (paper "A4")
+
+  (title_block
+    (title "FM QRP TRCV")
+    (date "2022-03-12")
+    (rev "1")
+    (company "JK1MLY / PRUG")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "周波数制御のサンプルプログラム\nhttps://github.com/jk1mly/fm-trcv\n参考　BG7QKU\nhttps://github.com/BG7QKU\nBK4802N\nhttps://aitendo3.sakura.ne.jp/aitendo_data/product_img/ic/wirless/BK4802P/BK4802N-BEKEN.pdf"
+    (at 146.05 68.58 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c4409e59-6275-48eb-a9f9-17473ff89d05)
+  )
+
+  (sheet (at 60.96 93.98) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-000061d11043)
+    (property "Sheetname" "RF-IC" (at 60.96 93.2684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "main.kicad_sch" (at 60.96 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "fm_qrp3"
+        (path "/6d1d60ff-408a-47a7-892f-c5cf9ef6ca75" (page "1"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "2"))
+  )
+)
