@@ -6,7 +6,7 @@
 
   (title_block
     (title "FM QRP TRCV")
-    (date "2022-03-12")
+    (date "2023-08-12")
     (rev "1")
     (company "JK1MLY / PRUG")
   )
@@ -416,12 +416,12 @@
     )
     (instances
       (project "fm_qrp2"
-        (path "/6d1d60ff-408a-47a7-892f-c5cf9ef6ca75" (page "6"))
+        (path "/6d1d60ff-408a-47a7-892f-c5cf9ef6ca75" (page "1"))
       )
     )
   )
 
   (sheet_instances
-    (path "/" (page "1"))
+    (path "/" (page "6"))
   )
 )

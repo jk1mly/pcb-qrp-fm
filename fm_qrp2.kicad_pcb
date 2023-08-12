@@ -1778,7 +1778,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/00000000-0000-0000-0000-000061d10878/00000000-0000-0000-0000-000061d572e0")
     (attr through_hole)
-    (fp_text reference "C302" (at 2.5 2.58 90) (layer "F.SilkS") hide
+    (fp_text reference "C302" (at -2.555 6.1 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b06d0f18-c7c1-4973-8806-d4fa87df5412)
     )
@@ -10370,6 +10370,8 @@
     (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 59a07a5e-0a4c-45c6-ac62-820bc2bdb5e4))
   (gr_line (start 151.13 93.345) (end 154.305 93.345)
     (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 6b11cce7-14d7-48fc-b3b1-7c86fc2616e7))
+  (gr_line (start 140.315 87.63) (end 143.8 88.985)
+    (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 6b7082ea-16e1-437c-b5e8-fbb306c14861))
   (gr_poly
     (pts
       (xy 200.025 113.792)
